@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #1c1d1f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #e67e22;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-section {
+  margin-bottom: 20px;
+}
+
+.video-section video {
+  width: 60%;
+  
+  border-radius: 8px;
+}
+
+.course-details {
+  margin-bottom: 20px;
+}
+
+.course-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.course-info {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.curriculum {
+  margin-bottom: 20px;
+}
+
+.curriculum h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.curriculum ul {
+  padding-left: 20px;
+}
+
+.curriculum ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1c1d1f;
+  color: white;
+  margin-top: 20px;
+}
